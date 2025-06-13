@@ -1,4 +1,5 @@
 Retail Sales Analysis — SQL Project
+
 🔹 Project Overview
 This project involves analyzing retail sales data using MySQL.
 The main objective is to extract valuable business insights and aid stakeholders in making data-informed decisions
