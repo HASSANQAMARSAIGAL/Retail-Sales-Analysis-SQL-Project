@@ -1,4 +1,5 @@
 📈 Project Overview
+
 This project involves exploring and analyzing retail sales data using MySQL.
 The main objective is to uncover valuable business insights, identify sales trends, and aid in data-informed decision-making.
 Through this analysis, we aim to answer questions related to customer behavior, product performance, and store operations.
