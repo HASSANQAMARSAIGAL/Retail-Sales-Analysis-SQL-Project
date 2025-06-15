@@ -5,6 +5,7 @@ The main objective is to uncover valuable business insights, identify sales tren
 Through this analysis, we aim to answer questions related to customer behavior, product performance, and store operations.
 
 🔹 Key Features
+
 ✅ Comprehensive sales analysis by product, customer, and region
 ✅ Aggregation of key metrics (total sales, average order value, number of orders)
 ✅ Identification of best-selling products and underperformers
@@ -13,6 +14,7 @@ Through this analysis, we aim to answer questions related to customer behavior, 
 ✅ Support for data-informed business decisions — promotions, pricing strategies, and inventory control
 
 🔹 Tools and Techniques
+
 MySQL — for data storage, transformation, and retrieving results
 
 SQL (GROUP BY, JOIN, WINDOW_FUNCTIONS) — for performing complex data manipulations
@@ -24,6 +26,7 @@ Table Relationships and Database Design — following best practices for data co
 Query Optimization — ensuring performance and efficiency while retrieving large amounts of data
 
 🔹 Project File(s)
+
 Retail-Sales-Analysis.sql — contains all SQL code, from table structures to complex queries
 
 README.md — project overview, main goals, methods, and instructions for usage
@@ -31,6 +34,7 @@ README.md — project overview, main goals, methods, and instructions for usage
 Sample Data (if applicable) — CSV files used to perform the analysis (currently not included in the repository)
 
 🔹 Business Impact
+
 This project helps stakeholders:
 
 ✅ Analyze Product Performance — identify best-selling and slow-moving products
