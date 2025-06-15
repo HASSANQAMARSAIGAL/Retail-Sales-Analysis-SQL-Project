@@ -1,35 +1,41 @@
-Retail Sales Analysis — SQL Project
+📈 Project Overview
+This project involves exploring and analyzing retail sales data using MySQL.
+The main objective is to uncover valuable business insights, identify sales trends, and aid in data-informed decision-making.
+Through this analysis, we aim to answer questions related to customer behavior, product performance, and store operations.
 
-🔹 Project Overview
-This project involves analyzing retail sales data using MySQL.
-The main objective is to extract valuable business insights and aid stakeholders in making data-informed decisions
-
-🔹 Database Schema
-The project utilizes a single table: retail_sales with the following structure:
-transaction_id (INT, Primary Key)
-sale_date (DATE)
-sale_time (TIME)
-customer_id (INT)
-gender (VARCHAR)
-age (INT)
-category (VARCHAR)
-quantity (INT)
-price_per_unit (FLOAT)
-cogs (FLOAT)
-total_sale (FLOAT)
-
-🔹 Data Cleaning
-Removed records with missing or NULL values in key fields.
-Standardized data to enable accurate and trustworthy analysis.
-
-🔹 Analysis and Queries
-✅ How many sales do we have in total?
-✅ How many unique customers do we have?
-✅ Retrieve all transactions where the category is Clothing, the quantity is greater than 4, and the transaction falls in November 2022.
-✅ Calculate total sales for each product category.
-✅ Identify the top 5 customers by total sales.
-✅ Count number of orders by shift (Morning, Afternoon, Evening).
+🔹 Key Features
+✅ Comprehensive sales analysis by product, customer, and region
+✅ Aggregation of key metrics (total sales, average order value, number of orders)
+✅ Identification of best-selling products and underperformers
+✅ Analysis of sales trends over time (weekly, monthly, and quarterly)
+✅ Application of window functions, GROUP BY, and other advanced SQL techniques
+✅ Support for data-informed business decisions — promotions, pricing strategies, and inventory control
 
 🔹 Tools and Techniques
-MySQL for data storage, transformation, and retrieving analytical results.
-SQL (with GROUP BY, SUM, COUNT, LIMIT, and CASE) for data analysis.
+MySQL — for data storage, transformation, and retrieving results
+
+SQL (GROUP BY, JOIN, WINDOW_FUNCTIONS) — for performing complex data manipulations
+
+Exploratory Data Analysis — for uncovering patterns and adding depth to business understanding
+
+Table Relationships and Database Design — following best practices for data consistency
+
+Query Optimization — ensuring performance and efficiency while retrieving large amounts of data
+
+🔹 Project File(s)
+Retail-Sales-Analysis.sql — contains all SQL code, from table structures to complex queries
+
+README.md — project overview, main goals, methods, and instructions for usage
+
+Sample Data (if applicable) — CSV files used to perform the analysis (currently not included in the repository)
+
+🔹 Business Impact
+This project helps stakeholders:
+
+✅ Analyze Product Performance — identify best-selling and slow-moving products
+✅ Understand Customer Preferences — enable loyalty programs or promotions for high-value customers
+✅ Improve Operations — manage inventory and restock efficiently
+✅ Boost Profits — maximize profits by optimizing pricing, promotions, and product placement
+✅ Make Data-informed Decisions — enable stakeholders to base decisions on factual data instead of guesswork
+
+
